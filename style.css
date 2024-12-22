@@ -1,0 +1,115 @@
+/* Set the entire page background to a dark theme with white text */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the search input and button */
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+input[type="text"] {
+    padding: 12px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+    width: 300px;
+    background-color: #333333;
+    color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    background-color: #555555;
+}
+
+/* Style for the search button */
+button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border: none;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0c5e96;
+}
+
+/* Style the card container */
+#cardSec {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+/* Style for individual cards */
+.card {
+    background-color: #1e1e1e;
+    border: none;
+    margin: 15px;
+    width: 18rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Style the card image */
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Card body styles */
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #c0c0c0;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #1a73e8;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0c5e96;
+}
